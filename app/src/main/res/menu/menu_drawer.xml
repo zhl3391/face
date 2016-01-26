@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_download"
+        android:icon="@mipmap/ic_nav_download"
+        android:title="@string/nav_download"/>
+    <item
+        android:id="@+id/nav_feedback"
+        android:icon="@mipmap/ic_nav_feedback"
+        android:title="@string/nav_feedback"/>
+    <item
+        android:id="@+id/nav_setting"
+        android:icon="@mipmap/ic_nav_setting"
+        android:title="@string/nav_setting"/>
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@mipmap/ic_nav_about"
+        android:title="@string/nav_about"/>
+</menu>

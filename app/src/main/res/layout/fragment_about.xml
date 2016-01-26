@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/app_name"
+        android:textColor="#000"
+        android:textSize="@dimen/text_large" />
+
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAppName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvVersion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <include layout="@layout/layout_about_line" />
+
+        <LinearLayout
+            android:id="@+id/layoutUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/slc_btn_about"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="12dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/about_update"
+                android:textColor="#000"
+                android:textSize="@dimen/text_medium" />
+
+            <TextView
+                android:id="@+id/tvIsNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_is_new"
+                android:textColor="@color/gray" />
+
+            <ImageView
+                android:id="@+id/imgNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_new" />
+        </LinearLayout>
+
+        <include layout="@layout/layout_about_line" />
+
+        <LinearLayout
+            android:id="@+id/layoutGrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/slc_btn_about"
+            android:orientation="horizontal"
+            android:padding="12dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@mipmap/ic_to"
+                android:text="@string/about_grade"
+                android:textColor="#000"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+        
+        <include layout="@layout/layout_about_line" />
+
+        <LinearLayout
+            android:id="@+id/layoutShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/slc_btn_about"
+            android:orientation="horizontal"
+            android:padding="12dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@mipmap/ic_to"
+                android:text="@string/about_share"
+                android:textColor="#000"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+
+        <include layout="@layout/layout_about_line" />
+
+        <LinearLayout
+            android:id="@+id/layoutIntroduce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/slc_btn_about"
+            android:orientation="horizontal"
+            android:padding="12dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@mipmap/ic_to"
+                android:text="@string/about_introduce"
+                android:textColor="#000"
+                android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/lineIntroduce"
+            layout="@layout/layout_about_line" />
+
+        <LinearLayout
+            android:id="@+id/layoutContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/slc_btn_about"
+            android:orientation="horizontal"
+            android:padding="12dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/about_contact"
+                android:textColor="#000"
+                android:textSize="@dimen/text_medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_qq_group"
+                android:textColor="@color/gray" />
+        </LinearLayout>
+
+        <include layout="@layout/layout_about_line" />
+    </LinearLayout>
+
+    <EditText
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etHost"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <dimen name="listitem_img_margin_left">16dp</dimen>
+    <dimen name="listitem_text_margin_left">72dp</dimen>
+    <dimen name="listitem_twoline_height">72dp</dimen>
+    <dimen name="listitem_oneline_height">48dp</dimen>
+    <dimen name="listitem_img_twoline_height">48dp</dimen>
+
+    <dimen name="text_loading">28sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <dimen name="text_medium">18sp</dimen>
+    <dimen name="text_normal">16sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_min">12sp</dimen>
+
+    <dimen name="btn_download_height">36dp</dimen>
+    <dimen name="btn_download_width">88dp</dimen>
+    <dimen name="btn_float_size">56dp</dimen>
+
+    <dimen name="preview_height">150dp</dimen>
+    <dimen name="preview_img_size">130dp</dimen>
+
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="tab_bottom_height">48dp</dimen>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="22.1.1"><source path="/Users/zhl/work/face/MaterialDesign/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/assets"/></dataSet><dataSet config="debug"><source path="/Users/zhl/work/face/MaterialDesign/build/intermediates/bundles/debug/assets"/></dataSet><dataSet config="main"><source path="/Users/zhl/work/face/MaterialDesign/src/androidTest/assets"/></dataSet></merger>

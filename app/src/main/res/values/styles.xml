@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="BaseTheme">
+    </style>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--<item name="colorAccent">#FF4081</item>-->
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>
+        <!--<item name="android:windowBackground">?attr/background</item>-->
+    </style>
+
+    <style name="AppTheme.TabActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorAccent">@color/white</item>
+    </style>
+    <style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">#fff</item>
+    </style>
+
+    <style name="SwipeBottomTheme" parent="@style/BaseTheme">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="SwipeTopTheme" parent="@style/BaseTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>

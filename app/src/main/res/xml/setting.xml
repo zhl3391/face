@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/title_setting_slide" >
+        <CheckBoxPreference
+            android:key="@string/key_setting_slide_left"
+            android:summaryOff="未激活"
+            android:summaryOn="已激活"
+            android:title="@string/title_setting_slide_left" />
+        <CheckBoxPreference
+            android:key="@string/key_setting_slide_right"
+            android:summaryOff="未激活"
+            android:summaryOn="已激活"
+            android:title="@string/title_setting_slide_right" />
+    </PreferenceCategory>
+    <!--<PreferenceCategory android:title="@string/title_setting_floatview" >-->
+        <!--<CheckBoxPreference-->
+            <!--android:key="@string/key_setting_floatview"-->
+            <!--android:summaryOff="已关闭"-->
+            <!--android:summaryOn="已开启"-->
+            <!--android:title="@string/title_setting_check_floatview" />-->
+        <!--<PreferenceScreen-->
+            <!--android:key="@string/key_setting_float_tip"-->
+            <!--android:title="提示"-->
+            <!--android:summary="当你打开微信或qq时，会有一个悬浮按钮来快速打开快发表情。"-->
+            <!-->-->
+        <!--</PreferenceScreen>-->
+    <!--</PreferenceCategory>-->
+    <!--<PreferenceCategory android:title="一般设置" >-->
+    <!--<PreferenceScreen-->
+    <!--android:key="@string/key_setting_grade"-->
+    <!--android:title="评个分，么么哒!" >-->
+    <!--</PreferenceScreen>-->
+    <!--</PreferenceCategory>-->
+    <!--<PreferenceCategory android:title="Preference attributes" >-->
+    <!--<CheckBoxPreference-->
+    <!--android:key="parent_checkbox_preference"-->
+    <!--android:summary="这是一个可见的父类"-->
+    <!--android:title="父类复选框首选项" />-->
+    <!--&lt;!&ndash; 子类的可见类型是由样式属性定义的 &ndash;&gt;-->
+    <!--<CheckBoxPreference-->
+    <!--android:dependency="parent_checkbox_preference"-->
+    <!--android:key="child_checkbox_preference"-->
+    <!--android:layout="?android:attr/preferenceLayoutChild"-->
+    <!--android:summary="这是一个可见的子类"-->
+    <!--android:title="子类复选框首选项" />-->
+    <!--</PreferenceCategory>-->
+
+</PreferenceScreen>

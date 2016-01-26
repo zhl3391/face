@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar"/>
+
+    <FrameLayout
+        android:id="@+id/mainFragment"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mainBg"
+         />
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/progress_bar_green"/>
+
+</RelativeLayout>

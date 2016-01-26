@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/color_bg_white"
+    android:minHeight="@dimen/listitem_twoline_height"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgCover"
+        android:layout_width="@dimen/listitem_img_twoline_height"
+        android:layout_height="@dimen/listitem_img_twoline_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/listitem_img_margin_left"
+        android:scaleType="fitCenter"
+         />
+
+    <RelativeLayout
+        android:id="@+id/layoutBtn"
+        android:layout_width="@dimen/btn_download_width"
+        android:layout_height="@dimen/btn_download_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/listitem_img_margin_left" >
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:id="@+id/btnDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/btn_bg_download"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <ImageView
+            android:id="@+id/imgOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_ok" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="4dp"
+            android:id="@+id/progressBar"
+            android:progressDrawable="@drawable/progress_bar_green"
+            android:max="100" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/layoutBtn"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/listitem_text_margin_left"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvName"
+            android:maxLines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="?android:attr/textColorPrimary"
+            />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="TextView" />
+    </LinearLayout>
+
+</RelativeLayout>

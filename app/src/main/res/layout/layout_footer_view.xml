@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+
+    <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvNoMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/footer_end"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:textSize="@dimen/text_medium"/>
+
+    <com.gc.materialdesign.views.ButtonFlat
+        android:id="@+id/btnAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_btn_text_retry"
+        android:layout_centerInParent="true"
+        android:textColor="#fff"
+        android:background="@color/btn_bg_error"
+        android:visibility="gone"/>
+
+</RelativeLayout>

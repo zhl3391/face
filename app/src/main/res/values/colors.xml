@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5677fc</color>
+    <color name="colorPrimaryDark">#5677fc</color>
+    <!--<color name="colorPrimaryDark">#455ede</color>-->
+    <color name="mark_text">#66000000</color>
+    <color name="btn_bg_error">#e54c3a</color>
+    <color name="btn_bg_download">#45c01a</color>
+    <color name="mainBg">#e0e0e0</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="red">#e54c3a</color>
+    <color name="preview_bar">#333333</color>
+    <color name="photo_bg_alpha">#aa353535</color>
+    <color name="gray">#757575</color>
+    <color name="album_name">#55ffffff</color>
+    <color name="btn_bg_about">#22000000</color>
+    <color name="color_weixin">#45c01a</color>
+    <color name="color_qq">#03a9f4</color>
+
+</resources>

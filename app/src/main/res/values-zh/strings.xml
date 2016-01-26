@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">快发表情</string>
+    <string name="app_welcome">hello，表情达人</string>
+
+    <string name="nav_download">表情下载</string>
+    <string name="nav_feedback">意见反馈</string>
+    <string name="nav_setting">设置</string>
+    <string name="nav_about">关于</string>
+
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+
+    <string name="action_settings">设置</string>
+    <string name="action_search">搜索</string>
+    <string name="action_ok">确定(%1$d)</string>
+    <string name="action_preview">预览(%1$d)</string>
+    <string name="action_count">%1$d/%2$d</string>
+    <string name="action_download">下载</string>
+    <string name="action_delete">删除</string>
+
+    <string name="download_disable">无法下载</string>
+    <string name="download_k">下载(%1$dk)</string>
+    <string name="download_m">下载(%1$1.1fm)</string>
+    <string name="download_ing">下载中...</string>
+    <string name="downloaded">已下载</string>
+    <string name="download_suc">下载成功!</string>
+    <string name="download_fail">下载失败!</string>
+    <string name="download_all">下载系列</string>
+    <string name="download_again">重新下载</string>
+    <string name="download_unzip">解压资源中...</string>
+    <string name="download_size_k">(%1$dk)</string>
+    <string name="download_size_m">(%1$1.1fm)</string>
+
+    <string name="tab_my_face">我的表情</string>
+    <string name="tab_down_face">表情下载</string>
+    <string name="tab_me">我</string>
+
+    <string name="delete">删除</string>
+    <string name="delete_ing">正在删除...</string>
+    <string name="delete_all">删除系列</string>
+    <string name="deleted">已删除!</string>
+
+    <string name="title_search">表情搜索</string>
+    <string name="title_improt_face">表情导入</string>
+    <string name="title_userinfo">用户中心</string>
+    <string name="title_about">关于表情达人</string>
+
+    <string name="title_setting_slide">侧滑返回</string>
+    <string name="title_setting_floatview">悬浮按钮</string>
+    <string name="title_setting_slide_left">左边侧滑</string>
+    <string name="title_setting_slide_right">右边侧滑</string>
+    <string name="title_setting_check_floatview">悬浮按钮开关</string>
+
+
+    <string name="key_setting_slide_left">slide_left</string>
+    <string name="key_setting_slide_right">slide_right</string>
+    <string name="key_setting_floatview">floatview</string>
+    <string name="key_setting_float_tip">float_tip</string>
+    <string name="key_setting_grade">grade</string>
+
+    <string name="empty_text_empty">什么都没有!</string>
+    <string name="empty_text_error">哦，挂了!</string>
+    <string name="empty_text_loading">拼命加载中</string>
+    <string name="empty_btn_text_retry">重试一下!</string>
+    <string name="empty_text_favorite">没有常用记录哦\n</string>
+    <string name="empty_text_face_empty">空空如也!</string>
+
+    <string name="about_update">版本更新</string>
+    <string name="about_is_new">已是最新版本</string>
+    <string name="about_grade">评个分，么么哒!</string>
+    <string name="about_share">分享给好友</string>
+    <string name="about_introduce">功能介绍</string>
+    <string name="about_contact">产品交流</string>
+    <string name="about_qq_group">QQ群:284595224</string>
+
+    <string name="no_qq">未安装QQ，无法发送!</string>
+    <string name="no_weixin">未安装微信，无法发送!</string>
+    <string name="no_face">表情不存在!</string>
+
+    <string name="text_dont_del">不删了</string>
+    <string name="text_ok">确定</string>
+    <string name="text_del_all">确定要删除全部吗?</string>
+    <string name="text_del_face">确定要删除 %1$d个 表情吗?</string>
+    <string name="text_exit">再按一次退出</string>
+
+    <string name="check">查看</string>
+    <string name="waitting">等待中</string>
+    <string name="error_unzip">解压失败</string>
+    <string name="know">知道了</string>
+    <string name="toast_search_null">输入搜索词呀!</string>
+    <string name="tip_down_face">单击表情可以选中下载哦!</string>
+    <string name="footer_end">———— THE END ————</string>
+    <string name="user_defualt_name">表情达人</string>
+
+    <string name="dlg_del_series">确定要删除该系列吗?</string>
+    <string name="dlg_clear">确定要清空吗?</string>
+    <string name="tb_munion_tip_download_prefix">正在下载:</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="UMUpdateCheck">2.6.0.1.20150312</string>
+    <string name="umeng_common_icon">icon</string>
+</resources>
